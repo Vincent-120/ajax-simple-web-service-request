@@ -1,0 +1,28 @@
+
+    #container {
+        padding-top: 9%;
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        align-self: center;
+        width:auto;
+        height: auto;
+        #picture{
+            display: flex;
+            justify-content: center;
+            size: 100%;
+            align-self: center;
+            #picAuthor{
+                height: 50%;
+                width: 50%;
+                align-self: center;
+                border-radius: 60%;
+            }
+        }
+        #quote{
+            align-self: center;
+        }
+        #author{
+            align-self: center;
+        }
+    }
